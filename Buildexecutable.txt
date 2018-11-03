@@ -1,0 +1,4 @@
+cd /
+cd C:/Users/shash/Desktop/GIT\Docker
+docker build -t hello-wold C:/Users/shash/Desktop/GIT/Docker/
+docker run -d --name helloworld -p 80:80 -v C:/Users/shash/Desktop/GIT/Docker/src/:/var/www/html hello-world
